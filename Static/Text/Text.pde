@@ -18,4 +18,11 @@ titleFont = createFont("MVBoli", 55); //Verify the font exists in ProcessingJava
 //
 //Layout our text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
- 
+//Drawing Text
+fill(); //Ink, hexidecimal copied from Color Selector
+textAlign(); //Align X&Y, see Processing.org / Refrence 
+//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASEMENT ]
+textFont(); //Change the number until it fits 
+text();
+fill(resetDefaultInk);
+//End Program 
