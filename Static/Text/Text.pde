@@ -1,5 +1,5 @@
 String title = "Wahoo!";
-
+float titleX, titleY, titleWidth, titleHeight;
 //
 //Display Geometry, Display orientation: landscape, portrait, or square 
 fullScreen(); //size(500, 600); //displayWidth & displayHeight; 
